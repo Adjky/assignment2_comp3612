@@ -1,0 +1,93 @@
+/*
+Aidan Jacobson - Fall 2023 - Comp 3612 - Assignment 2 
+
+Color Palette Ref: https://designs.ai/colors/palette/163
+                   https://designs.ai/colors/palette/154
+
+
+*/
+:root {
+    --primary-color: #bcbab8;
+    --secondary-color: #f9f9f9;
+    --border-color: #1063cf;
+    --background-color: #eeeeee;
+  }
+
+.primaryContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between; /* Aligns the logo and navigation to opposite ends */
+    padding: 10px;
+    align-items: center; /* Centers items vertically */
+    background-color: #f8f8f8; /* Just an example color */
+    border-bottom: 1px solid #ccc; /* Just an example border */
+}
+
+
+.header{
+padding: 14px;
+font-size: 28px;
+flex: 0 1 auto;
+}
+
+.search{
+    flex:wrap;
+    padding: 24px;
+    justify-content: right;
+    flex: 1 1 auto;
+}
+
+.footer{
+    flex: 0 1 auto;
+    text-align:center;
+    padding:10px;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navigation button {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    text-align: left;
+    border: 1px solid var(--border-color);
+    padding: 8px;
+  }
+  
+select,
+input[type="text"],
+button {
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  margin: 5px;
+}
+
+
+.tooltip{
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+
+}

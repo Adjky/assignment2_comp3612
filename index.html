@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <script src="assign2.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>comp3612 - assignment 2</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div id="primaryContainer">
+            <div id="navigation">
+                <div id="logo" style="background-color: brown;">
+
+                    <nav class="navigation">
+                        <div>
+                            <button rel="url" href="/index.html">logo </button>
+                            <button id="search"> search </button>
+                            <button id="playlist"> playlist </button>
+                        </div>
+                        <div>
+                            <button class="navigation"> Credits
+                                <!-- use setTimeout of 5 sec, credits are hidden by default and popup on mouseover-->
+                                <ul id="buttonCredits">
+                                    <li class="Credit_Name" style="visibility: hidden;"> Aidan Jacobson </li>
+                                    <li class="Credit_Github" style="visibility: hidden;"> https://github.com/Adjky
+                                    </li>
+                                </ul>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+
+
+            </div>
+
+        </div>
+    </header>
+
+<!-- search / Song Table View -->
+<div>
+    <!-- Basic Song Search Radial -->
+
+    <div id="individualSongPopup">
+        <!-- -->
+        
+    </div>
+
+    <table id="songTable">
+        <thead>
+            <tr>
+                <th colspan="5" style="text-align: center;">Browse / Search Results</th>
+            </tr>
+            <tr>
+                <th>Song Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th>Genre</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="songsBody">
+            <!-- JS function will populate song data here -->
+        </tbody>
+    </table>
+</div>
+
+
+<!-- playlist Table View -->
+
+<!-- home Table View -->
+
+
+    <div id="footer">
+        footer
+    </div>
+    </div>
+</body>
+
+</html>
